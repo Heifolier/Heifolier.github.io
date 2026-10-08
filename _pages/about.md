@@ -1,89 +1,76 @@
 ---
+layout: profile
 permalink: /
-title: "About"
-author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
+title: "Shuo Zhang"
+excerpt: "Shuo Zhang is a robotics researcher at Peking University working on embodied intelligence, robot task planning, and multi-robot systems."
 ---
 
-I am a master's student in **Advanced Manufacturing and Intelligent Systems at Peking University**, advised by [Prof. Zhongkui Li](https://www.zhongkuili-pku.com/cn/) and [Prof. Meng Guo](https://mengguo.github.io/personal_site/) in the Multi-Agent Control and Decision Laboratory.
-
-My research focuses on **embodied intelligence and robot task planning**, with particular interests in vision-language-action models, LLM-guided planning, temporal-logic reasoning, and multi-robot collaboration. I am interested in building robotic systems that can turn high-level instructions into reliable long-horizon behavior under uncertainty.
-
-## Research Interests
-
-- Embodied intelligence and vision-language-action models
-- LLM-guided task planning and semantic reasoning
-- Temporal logic and human-swarm collaboration
-- Multi-robot task allocation and cooperative planning
-
-## Selected Publications
-
-<div class="publication-list">
-  <article class="publication-item">
-    <h3>LLM-Guided Hierarchical Belief Planning for Online Semantic Exploration and Task Execution</h3>
-    <p><strong>Shuo Zhang</strong>, Zhongkui Li, Meng Guo, and Yanran Wei</p>
-    <p class="publication-meta">IEEE CAC 2026 · Published · First author</p>
-    <p>Hierarchical belief-space planning that combines LLM-generated object-location priors with online semantic exploration. Compared with the SOTA baseline, it reduces average execution cost by 18.6% and travel distance by 16.9% while requiring fewer LLM queries.</p>
-    <p><a href="{{ site.baseurl }}/files/paper/main.pdf">PDF</a></p>
-  </article>
-
-  <article class="publication-item">
-    <h3>Melding LLM and Temporal Logic for Reliable Human-Swarm Collaboration in Complex Environments</h3>
-    <p>Junfeng Chen, Yuxiao Zhu, An Zhuo, Xintong Zhang, <strong>Shuo Zhang</strong>, Guanghui Wen, Xiwang Dong, Meng Guo, and Zhongkui Li</p>
-    <p class="publication-meta">Submitted to Science Robotics</p>
-    <p>A neuro-symbolic framework integrating LLM reasoning, temporal-logic constraints, and uncertainty awareness. Experiments with more than 40 robots across 41 tasks and 155 subtasks improved task success by 260% and reduced operator intervention by 77%.</p>
-    <p><a href="{{ site.baseurl }}/files/paper/2605.07877v1.pdf">PDF</a></p>
-  </article>
-
-  <article class="publication-item">
-    <h3>Formal Logic-based Cooperative Task Planning for Multi-robot Systems: Survey of Recent Advances and Future Directions</h3>
-    <p><strong>Shuo Zhang</strong> et al.</p>
-    <p class="publication-meta">Acta Automatica Sinica · Published</p>
-    <p>A survey of formal-logic-based multi-robot task planning, covering natural-language understanding, PDDL/LTL/STL translation, task decomposition, and plan generation.</p>
-  </article>
-</div>
-
-[View all publications]({{ site.baseurl }}/publications/)
-
-## Experience
-
-<div class="timeline-list">
-  <div class="timeline-item">
-    <div><strong>Embodied Intelligence Algorithm Intern</strong><br>Xinyan Group Robotics Division, Beijing</div>
-    <div class="timeline-date">Jun 2026 - Sep 2026</div>
-    <p>Developed a multi-task VLA policy for the 100 long-horizon household tasks in the BEHAVIOR 2026 Challenge. Built data and automated evaluation pipelines and improved task success from 13% to 34% and Q-score from 0.26 to 0.49.</p>
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">Robotics · Embodied AI · Task Planning</p>
+    <h1>I build robots that can reason, plan, and act in complex environments.</h1>
+    <p class="hero-intro">I'm <strong>Shuo Zhang (张硕)</strong>, a master's student at Peking University. My work connects vision-language-action models, large language models, formal methods, and multi-robot collaboration.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="{{ '/publications/' | relative_url }}">Explore my research</a>
+      <a class="button secondary" href="{{ '/files/cv.pdf' | relative_url }}">Download CV</a>
+    </div>
+    <div class="quick-links">
+      <a href="mailto:heifolier@stu.pku.edu.cn">heifolier@stu.pku.edu.cn</a>
+      <a href="https://github.com/Heifolier">GitHub</a>
+      <span>Beijing, China</span>
+    </div>
   </div>
-  <div class="timeline-item">
-    <div><strong>Embodied Intelligence Algorithm Intern</strong><br>Shanghai MicroPort MedBot</div>
-    <div class="timeline-date">Dec 2025 - May 2026</div>
-    <p>Developed a respiratory-phase-aware VLA policy and multimodal training pipeline for autonomous long-horizon robotic surgery, and contributed to deployment and system integration on the physical platform.</p>
+  <div class="portrait-wrap">
+    <img class="portrait" src="{{ '/images/profile.png' | relative_url }}" alt="Portrait of Shuo Zhang">
+    <div class="portrait-note"><strong>Peking University</strong><span>School of Advanced Manufacturing and Robotics</span></div>
   </div>
-  <div class="timeline-item">
-    <div><strong>Planning and Control Algorithm Engineer</strong><br>Beihang University Institute of Unmanned Systems &amp; Peking University Joint R&amp;D Project</div>
-    <div class="timeline-date">Jun 2025 - Oct 2025</div>
-    <p>Implemented and deployed an LLM- and temporal-logic-guided planning framework for heterogeneous multi-robot teams in dynamic open environments.</p>
+</section>
+
+<section class="section research-focus">
+  <div class="section-heading">
+    <p class="eyebrow">Research focus</p>
+    <h2>From language to reliable robot behavior</h2>
   </div>
-</div>
-
-## Education
-
-<div class="timeline-list compact">
-  <div class="timeline-item">
-    <div><strong>Peking University</strong><br>M.Eng. in Mechanical Engineering (Robotics) · Top 20%</div>
-    <div class="timeline-date">Sep 2024 - Jun 2027 expected</div>
+  <div class="focus-grid">
+    <article><span>01</span><h3>Embodied Intelligence</h3><p>Vision-language-action policies for long-horizon household manipulation and autonomous robotic surgery.</p></article>
+    <article><span>02</span><h3>Robot Task Planning</h3><p>LLM-guided semantic reasoning, belief-space search, and temporal-logic planning under uncertainty.</p></article>
+    <article><span>03</span><h3>Multi-Robot Systems</h3><p>Task allocation, coalition formation, and collaborative planning for heterogeneous robot teams.</p></article>
   </div>
-  <div class="timeline-item">
-    <div><strong>Northeastern University</strong><br>B.Eng. in Automation (Artificial Intelligence) · Top 1%</div>
-    <div class="timeline-date">Sep 2020 - Jun 2024</div>
+</section>
+
+<section class="section selected-work">
+  <div class="section-heading split">
+    <div><p class="eyebrow">Selected work</p><h2>Research with measurable outcomes</h2></div>
+    <a class="text-link" href="{{ '/publications/' | relative_url }}">View all research →</a>
   </div>
-</div>
+  <div class="work-list">
+    <article class="work-card featured">
+      <div class="work-meta"><span>IEEE CAC 2026</span><span>First author · Published</span></div>
+      <h3>LLM-Guided Hierarchical Belief Planning for Online Semantic Exploration and Task Execution</h3>
+      <p>An online belief-space planning framework for long-horizon tasks in partially observable semantic environments.</p>
+      <div class="metrics"><span><strong>18.6%</strong> less execution time</span><span><strong>16.9%</strong> less travel distance</span></div>
+      <a class="text-link" href="{{ '/files/paper/main.pdf' | relative_url }}">Read paper →</a>
+    </article>
+    <article class="work-card">
+      <div class="work-meta"><span>Science Robotics submission</span></div>
+      <h3>Melding LLM and Temporal Logic for Reliable Human-Swarm Collaboration</h3>
+      <p>A neuro-symbolic framework tested with 40+ heterogeneous robots across 41 tasks and 155 subtasks.</p>
+      <div class="metrics"><span><strong>260%</strong> higher task success</span><span><strong>77%</strong> less intervention</span></div>
+      <a class="text-link" href="{{ '/files/paper/2605.07877v1.pdf' | relative_url }}">Read paper →</a>
+    </article>
+  </div>
+</section>
 
-## News
+<section class="section experience-section">
+  <div class="section-heading"><p class="eyebrow">Experience</p><h2>Building across research and deployment</h2></div>
+  <div class="experience-list">
+    <article><div class="experience-date">2026.06 — 2026.09</div><div><h3>Xinyan Group Robotics</h3><p class="role">Embodied Intelligence Algorithm Intern</p><p>Developed a multi-task VLA policy for the BEHAVIOR 2026 Challenge, raising task success from 13% to 34% and Q-score from 0.26 to 0.49.</p></div></article>
+    <article><div class="experience-date">2025.12 — 2026.05</div><div><h3>Shanghai MicroPort MedBot × Peking University</h3><p class="role">Embodied Intelligence Algorithm Intern</p><p>Built respiratory-phase-conditioned VLA motion generation and contributed to autonomous long-horizon surgery deployment on the Toumai robot.</p></div></article>
+    <article><div class="experience-date">2025.06 — 2025.10</div><div><h3>Beihang University × Peking University</h3><p class="role">Planning and Control Algorithm Engineer</p><p>Implemented and deployed an LLM- and temporal-logic-guided planning framework for heterogeneous multi-robot teams.</p></div></article>
+  </div>
+</section>
 
-- **Sep 2026** — Completed an embodied-intelligence internship at Xinyan Group Robotics Division.
-- **Jun 2026** — Joined Xinyan Group Robotics Division as an Embodied Intelligence Algorithm Intern.
-- **May 2026** — Our work on LLM and temporal-logic-guided human-swarm collaboration was submitted to *Science Robotics*.
-- **Dec 2025** — Joined Shanghai MicroPort MedBot to work on autonomous robotic surgery.
-- **Sep 2024** — Started my master's program at Peking University.
+<section class="closing-card">
+  <div><p class="eyebrow">Currently</p><h2>Open to robotics and embodied AI opportunities.</h2></div>
+  <a class="button light" href="mailto:heifolier@stu.pku.edu.cn">Get in touch</a>
+</section>

@@ -1,13 +1,13 @@
 ---
-layout: archive
+layout: profile
 title: "CV"
 permalink: /cv/
-author_profile: true
 redirect_from:
   - /resume
 ---
 
-<p><a href="{{ site.baseurl }}/files/cv.pdf" class="btn btn--primary"><i class="fas fa-download" aria-hidden="true"></i> Download CV (PDF)</a></p>
+<p class="page-lead">A concise overview of my education, research, engineering experience, and selected projects.</p>
+<p><a href="{{ '/files/cv.pdf' | relative_url }}" class="button primary">Download CV (PDF)</a></p>
 
 ## Education
 
