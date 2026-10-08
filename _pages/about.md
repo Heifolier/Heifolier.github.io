@@ -8,22 +8,31 @@ excerpt: "Shuo Zhang is a robotics researcher at Peking University working on em
 <section class="hero">
   <div class="hero-copy">
     <p class="eyebrow">Robotics · Embodied AI · Task Planning</p>
+    <div class="availability"><span></span> M.Eng. candidate · Expected 2027</div>
     <h1>I build robots that can reason, plan, and act in complex environments.</h1>
     <p class="hero-intro">I'm <strong>Shuo Zhang (张硕)</strong>, a master's student at Peking University. My work connects vision-language-action models, large language models, formal methods, and multi-robot collaboration.</p>
     <div class="hero-actions">
       <a class="button primary" href="{{ '/publications/' | relative_url }}">Explore my research</a>
       <a class="button secondary" href="{{ '/files/cv.pdf' | relative_url }}">Download CV</a>
     </div>
-    <div class="quick-links">
-      <a href="mailto:heifolier@stu.pku.edu.cn">heifolier@stu.pku.edu.cn</a>
-      <a href="https://github.com/Heifolier">GitHub</a>
-      <span>Beijing, China</span>
+    <div class="quick-links" aria-label="Contact and profile links">
+      <a class="contact-chip" href="mailto:heifolier@stu.pku.edu.cn"><span aria-hidden="true">✉</span> Email</a>
+      <a class="contact-chip" href="https://github.com/Heifolier"><span aria-hidden="true">⌘</span> GitHub</a>
+      <a class="contact-chip" href="{{ '/files/cv.pdf' | relative_url }}"><span aria-hidden="true">↧</span> CV</a>
+      <span class="contact-chip quiet"><span aria-hidden="true">⌖</span> Beijing</span>
     </div>
   </div>
   <div class="portrait-wrap">
     <img class="portrait" src="{{ '/images/profile.png' | relative_url }}" alt="Portrait of Shuo Zhang">
     <div class="portrait-note"><strong>Peking University</strong><span>School of Advanced Manufacturing and Robotics</span></div>
   </div>
+</section>
+
+<section class="credential-strip" aria-label="Academic profile highlights">
+  <div><strong>PKU</strong><span>M.Eng. Robotics</span></div>
+  <div><strong>Top 1%</strong><span>B.Eng. Automation</span></div>
+  <div><strong>3</strong><span>Granted patents</span></div>
+  <div><strong>40+</strong><span>Robots in field experiments</span></div>
 </section>
 
 <section class="section research-focus">
@@ -36,6 +45,25 @@ excerpt: "Shuo Zhang is a robotics researcher at Peking University working on em
     <article><span>02</span><h3>Robot Task Planning</h3><p>LLM-guided semantic reasoning, belief-space search, and temporal-logic planning under uncertainty.</p></article>
     <article><span>03</span><h3>Multi-Robot Systems</h3><p>Task allocation, coalition formation, and collaborative planning for heterogeneous robot teams.</p></article>
   </div>
+</section>
+
+<section class="section profile-details">
+  <div class="section-heading"><p class="eyebrow">Background</p><h2>Research depth, engineering range</h2></div>
+  <div class="detail-grid">
+    <article class="education-card">
+      <div class="card-label">Education</div>
+      <div class="education-entry"><div><h3>Peking University</h3><p>M.Eng. in Mechanical Engineering, Robotics</p><p class="small">Advised by Prof. Zhongkui Li and Prof. Meng Guo</p></div><span>2024—2027</span></div>
+      <div class="education-entry"><div><h3>Northeastern University</h3><p>B.Eng. in Automation, Artificial Intelligence</p><p class="small">Top 1% · Recommended graduate admission</p></div><span>2020—2024</span></div>
+    </article>
+    <article class="toolbox-card">
+      <div class="card-label">Toolbox</div>
+      <div class="skill-group"><span>Languages</span><p>Python · C/C++ · MATLAB</p></div>
+      <div class="skill-group"><span>Robotics &amp; ML</span><p>PyTorch · ROS · Isaac Sim · AI2-THOR</p></div>
+      <div class="skill-group"><span>Engineering</span><p>Linux · Git · Docker · LaTeX</p></div>
+      <div class="skill-group"><span>LLM systems</span><p>LangGraph · Harness · Codex · Claude</p></div>
+    </article>
+  </div>
+  <div class="honors-line"><span>Selected recognition</span><p>National Scholarship · Outstanding Graduate of Liaoning Province · Distinguished Scholar · Peking University Zhang Mingwei Scholarship</p></div>
 </section>
 
 <section class="section selected-work">
