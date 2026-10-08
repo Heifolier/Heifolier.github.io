@@ -34,21 +34,21 @@ excerpt: "Shuo Zhang is a robotics researcher at Peking University working on em
 
 ## Experience
 
-**Embodied Intelligence Algorithm Intern**, Xinyan Group Robotics Division  
+**Embodied Intelligence Algorithm Intern**, Xinyan Group Robotics Division<br>
 Jun 2026 – Sep 2026 · Multi-task VLA policies for the BEHAVIOR 2026 Challenge.
 
-**Embodied Intelligence Algorithm Intern**, Shanghai MicroPort MedBot × Peking University  
+**Embodied Intelligence Algorithm Intern**, Shanghai MicroPort MedBot × Peking University<br>
 Dec 2025 – May 2026 · Respiratory-phase-conditioned VLA policies for autonomous robotic surgery.
 
-**Planning and Control Algorithm Engineer**, Beihang University × Peking University  
+**Planning and Control Algorithm Engineer**, Beihang University × Peking University<br>
 Jun 2025 – Oct 2025 · LLM- and temporal-logic-guided planning for heterogeneous multi-robot teams.
 
 ## Education
 
-**Peking University**, M.Eng. in Mechanical Engineering (Robotics)  
+**Peking University**, M.Eng. in Mechanical Engineering (Robotics)<br>
 2024 – 2027 expected
 
-**Northeastern University**, B.Eng. in Automation (Artificial Intelligence), top 1%  
+**Northeastern University**, B.Eng. in Automation (Artificial Intelligence), top 1%<br>
 2020 – 2024
 
 ## Selected Honors
