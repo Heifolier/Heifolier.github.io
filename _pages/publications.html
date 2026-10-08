@@ -5,26 +5,35 @@ permalink: /publications/
 author_profile: true
 ---
 
-Coming soon.
+<p class="page-intro">My research spans LLM-guided robot planning, formal methods for multi-robot systems, and embodied intelligence.</p>
 
-{% include base_path %}
+<div class="publication-list">
+  <article class="publication-item">
+    <h2>LLM-Guided Hierarchical Belief Planning for Online Semantic Exploration and Task Execution</h2>
+    <p><strong>Shuo Zhang</strong>, Zhongkui Li, Meng Guo, and Yanran Wei</p>
+    <p class="publication-meta">IEEE CAC 2026 · Published · First author</p>
+    <p>We propose a hierarchical belief-space planning framework that combines LLM-generated object-location priors with online semantic exploration. Against the SOTA baseline, the method reduces average execution cost by 18.6% and travel distance by 16.9%, while also decreasing the number of LLM queries.</p>
+    <p><a class="btn btn--small" href="{{ site.baseurl }}/files/paper/main.pdf">PDF</a></p>
+  </article>
 
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  <article class="publication-item">
+    <h2>Melding LLM and Temporal Logic for Reliable Human-Swarm Collaboration in Complex Environments</h2>
+    <p>Junfeng Chen, Yuxiao Zhu, An Zhuo, Xintong Zhang, <strong>Shuo Zhang</strong>, Guanghui Wen, Xiwang Dong, Meng Guo, and Zhongkui Li</p>
+    <p class="publication-meta">Submitted to Science Robotics</p>
+    <p>We develop a neuro-symbolic human-swarm framework that integrates LLM-based task generation, temporal-logic constraints, uncertainty awareness, and real-time event monitoring. In large-scale experiments involving more than 40 robots, 41 tasks, and 155 subtasks, the framework improves task success by 260%, increases completed tasks by 132%, and reduces operator intervention by 77%.</p>
+    <p><a class="btn btn--small" href="{{ site.baseurl }}/files/paper/2605.07877v1.pdf">PDF</a></p>
+  </article>
+
+  <article class="publication-item">
+    <h2>SharpSurg: Foundation-Model-Based Autonomous Long-Horizon Robotic Surgery in Vivo</h2>
+    <p class="publication-meta">Submitted to Nature</p>
+    <p>A foundation-model-based system for autonomous long-horizon robotic surgery. My work focused on respiratory-phase-conditioned VLA motion generation, multimodal training, and deployment on the Toumai multi-arm surgical robot.</p>
+  </article>
+
+  <article class="publication-item">
+    <h2>Formal Logic-based Cooperative Task Planning for Multi-robot Systems: Survey of Recent Advances and Future Directions</h2>
+    <p><strong>Shuo Zhang</strong> et al.</p>
+    <p class="publication-meta">Acta Automatica Sinica · Published · Student third author</p>
+    <p>This survey reviews formal-logic-based cooperative planning for multi-robot systems, including natural-language task understanding, translation into PDDL/LTL/STL specifications, task decomposition, and plan generation. It also discusses limitations in hallucination control, constraint completeness, and interpretability.</p>
+  </article>
+</div>

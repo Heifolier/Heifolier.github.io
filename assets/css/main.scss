@@ -41,3 +41,80 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Homepage and publication refinements */
+.page__content {
+  h2 {
+    margin-top: 1.8em;
+    margin-bottom: 0.65em;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.35em;
+    line-height: 1.35;
+  }
+}
+
+.page-intro {
+  max-width: 48rem;
+  color: mix(#000, $text-color, 18%);
+  font-size: 1.05em;
+}
+
+.publication-list,
+.timeline-list {
+  max-width: 52rem;
+}
+
+.publication-item {
+  margin-bottom: 1.55em;
+  padding-bottom: 1.25em;
+  border-bottom: 1px solid mix(#fff, $border-color, 25%);
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  p {
+    margin: 0.35em 0;
+  }
+}
+
+.publication-meta,
+.muted {
+  color: mix(#fff, $text-color, 32%);
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 1.25em;
+  margin-bottom: 1.35em;
+
+  p {
+    grid-column: 1 / -1;
+    margin: 0.5em 0 0;
+  }
+}
+
+.timeline-list.compact .timeline-item {
+  margin-bottom: 1em;
+}
+
+.timeline-date {
+  white-space: nowrap;
+  color: mix(#fff, $text-color, 25%);
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .timeline-item {
+    display: block;
+  }
+
+  .timeline-date {
+    margin-top: 0.2em;
+    text-align: left;
+  }
+}
