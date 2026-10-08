@@ -8,7 +8,6 @@ excerpt: "Shuo Zhang is a robotics researcher at Peking University working on em
 <section class="hero">
   <div class="hero-copy">
     <p class="eyebrow">Robotics · Embodied AI · Task Planning</p>
-    <div class="availability"><span></span> M.Eng. candidate · Expected 2027</div>
     <h1>I build robots that can reason, plan, and act in complex environments.</h1>
     <p class="hero-intro">I'm <strong>Shuo Zhang (张硕)</strong>, a master's student at Peking University. My work connects vision-language-action models, large language models, formal methods, and multi-robot collaboration.</p>
     <div class="hero-actions">
@@ -16,23 +15,15 @@ excerpt: "Shuo Zhang is a robotics researcher at Peking University working on em
       <a class="button secondary" href="{{ '/files/cv.pdf' | relative_url }}">Download CV</a>
     </div>
     <div class="quick-links" aria-label="Contact and profile links">
-      <a class="contact-chip" href="mailto:heifolier@stu.pku.edu.cn"><span aria-hidden="true">✉</span> Email</a>
-      <a class="contact-chip" href="https://github.com/Heifolier"><span aria-hidden="true">⌘</span> GitHub</a>
-      <a class="contact-chip" href="{{ '/files/cv.pdf' | relative_url }}"><span aria-hidden="true">↧</span> CV</a>
-      <span class="contact-chip quiet"><span aria-hidden="true">⌖</span> Beijing</span>
+      <a href="mailto:heifolier@stu.pku.edu.cn">Email</a>
+      <a href="https://github.com/Heifolier">GitHub</a>
+      <a href="{{ '/files/cv.pdf' | relative_url }}">Curriculum Vitae</a>
+      <span>Beijing, China</span>
     </div>
   </div>
   <div class="portrait-wrap">
     <img class="portrait" src="{{ '/images/profile.png' | relative_url }}" alt="Portrait of Shuo Zhang">
-    <div class="portrait-note"><strong>Peking University</strong><span>School of Advanced Manufacturing and Robotics</span></div>
   </div>
-</section>
-
-<section class="credential-strip" aria-label="Academic profile highlights">
-  <div><strong>PKU</strong><span>M.Eng. Robotics</span></div>
-  <div><strong>Top 1%</strong><span>B.Eng. Automation</span></div>
-  <div><strong>3</strong><span>Granted patents</span></div>
-  <div><strong>40+</strong><span>Robots in field experiments</span></div>
 </section>
 
 <section class="section research-focus">
@@ -98,7 +89,7 @@ excerpt: "Shuo Zhang is a robotics researcher at Peking University working on em
   </div>
 </section>
 
-<section class="closing-card">
-  <div><p class="eyebrow">Currently</p><h2>Open to robotics and embodied AI opportunities.</h2></div>
-  <a class="button light" href="mailto:heifolier@stu.pku.edu.cn">Get in touch</a>
+<section class="closing-simple">
+  <div><p class="eyebrow">Contact</p><h2>Open to robotics and embodied AI opportunities.</h2></div>
+  <p><a class="text-link" href="mailto:heifolier@stu.pku.edu.cn">heifolier@stu.pku.edu.cn →</a></p>
 </section>
