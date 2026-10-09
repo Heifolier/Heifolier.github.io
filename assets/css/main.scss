@@ -53,6 +53,7 @@ nav a.active { color: var(--text); font-weight: 700; }
   font-size: 34px;
   line-height: 1.2;
 }
+.kicker { margin: 0 0 8px; color: var(--muted); font-size: 14px; }
 .intro h1 span { color: var(--muted); font-weight: 400; }
 .intro p { margin: 0 0 15px; }
 .intro-photo {
@@ -75,6 +76,39 @@ nav a.active { color: var(--text); font-weight: 700; }
 .site-main p { margin-top: 0; }
 .site-main ul, .site-main ol { padding-left: 24px; }
 .site-main li { margin-bottom: 12px; }
+
+.trajectory,
+.experience-list {
+  border-top: 1px solid var(--line);
+}
+.trajectory article,
+.experience-list article {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 28px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line);
+}
+.trajectory-date,
+.experience-date {
+  color: var(--muted);
+  font-size: 14px;
+}
+.trajectory h3,
+.experience-list h3 {
+  margin: 0 0 6px;
+  font-size: 17px;
+}
+.trajectory p,
+.experience-list p { margin: 0; color: var(--muted); }
+.experience-list p strong { color: var(--text); }
+
+.work-summary { border-top: 1px solid var(--line); }
+.work-summary article { padding: 21px 0; border-bottom: 1px solid var(--line); }
+.work-summary h3 { margin: 2px 0 8px; }
+.work-summary p { margin: 0; color: var(--muted); }
+.work-summary .work-tag { color: var(--muted); font-size: 13px; }
+.education-list p { margin: 0; padding: 16px 0; border-bottom: 1px solid var(--line); }
 
 .page-heading { margin-bottom: 35px; }
 .page-heading .eyebrow { display: none; }
@@ -130,4 +164,5 @@ nav a.active { color: var(--text); font-weight: 700; }
   .site-footer { flex-direction: column; gap: 12px; }
   .timeline-item { grid-template-columns: 1fr; }
   .timeline-date { white-space: normal; }
+  .trajectory article, .experience-list article { grid-template-columns: 1fr; gap: 4px; }
 }
