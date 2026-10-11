@@ -102,6 +102,8 @@ nav a.active { color: var(--text); font-weight: 700; }
   margin: 0 0 6px;
   font-size: 17px;
 }
+.experience-main { line-height: 1.5; }
+.experience-main > span { color: var(--muted); }
 .trajectory p,
 .experience-list p { margin: 0; color: var(--muted); }
 .experience-list p strong { color: var(--text); }

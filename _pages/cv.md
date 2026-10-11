@@ -32,15 +32,15 @@ redirect_from:
 
 <div class="timeline-list">
   <div class="timeline-item">
-    <div><strong>Embodied Intelligence Algorithm Intern</strong><br>Xinyan Group Robotics Division, Beijing</div>
+    <div><strong>Embodied Intelligence Algorithm Intern</strong> · <a href="https://clingo.ai/">Clingo Robotics</a>, Beijing</div>
     <div class="timeline-date">Jun 2026 - Sep 2026</div>
   </div>
   <div class="timeline-item">
-    <div><strong>Embodied Intelligence Algorithm Intern</strong><br>Shanghai MicroPort MedBot &amp; Peking University Joint R&amp;D Project</div>
+    <div><strong>Embodied Intelligence Algorithm Intern</strong> · <a href="https://www.microport.com/">MicroPort MedBot</a> × Peking University, Shanghai</div>
     <div class="timeline-date">Dec 2025 - May 2026</div>
   </div>
   <div class="timeline-item">
-    <div><strong>Planning and Control Algorithm Intern</strong><br>Beihang University Institute of Unmanned Systems &amp; Peking University Joint R&amp;D Project</div>
+    <div><strong>Planning and Control Algorithm Intern</strong> · <a href="https://wrj.buaa.edu.cn/index.htm">Institute of Unmanned Systems, Beihang University</a> × Peking University, Beijing</div>
     <div class="timeline-date">Jun 2025 - Oct 2025</div>
   </div>
 </div>

@@ -35,15 +35,15 @@ excerpt: "Shuo Zhang works on long-horizon robot planning and embodied intellige
 <div class="experience-list">
   <article>
     <div class="experience-date">Jun 2026 — Sep 2026</div>
-    <div><h3>Embodied Intelligence Algorithm Intern</h3><p><strong>Xinyan Group Robotics Division</strong>, Beijing</p></div>
+    <div class="experience-main"><strong>Embodied Intelligence Algorithm Intern</strong><span class="experience-separator"> · </span><a href="https://clingo.ai/"><strong>Clingo Robotics</strong></a><span>, Beijing</span></div>
   </article>
   <article>
     <div class="experience-date">Dec 2025 — May 2026</div>
-    <div><h3>Embodied Intelligence Algorithm Intern</h3><p><a href="https://www.microport.com/"><strong>Shanghai MicroPort MedBot</strong></a> × Peking University</p></div>
+    <div class="experience-main"><strong>Embodied Intelligence Algorithm Intern</strong><span class="experience-separator"> · </span><a href="https://www.microport.com/"><strong>MicroPort MedBot</strong></a><span> × Peking University, Shanghai</span></div>
   </article>
   <article>
     <div class="experience-date">Jun 2025 — Oct 2025</div>
-    <div><h3>Planning and Control Algorithm Intern</h3><p><a href="https://www.buaa.edu.cn/"><strong>Beihang University</strong></a> × Peking University</p></div>
+    <div class="experience-main"><strong>Planning and Control Algorithm Intern</strong><span class="experience-separator"> · </span><a href="https://wrj.buaa.edu.cn/index.htm"><strong>Institute of Unmanned Systems, Beihang University</strong></a><span> × Peking University, Beijing</span></div>
   </article>
 </div>
 
