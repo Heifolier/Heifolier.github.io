@@ -86,8 +86,8 @@ nav a.active { color: var(--text); font-weight: 700; }
 .trajectory article,
 .experience-list article {
   display: grid;
-  grid-template-columns: 180px minmax(250px, 1fr) minmax(190px, 280px);
-  gap: 20px;
+  grid-template-columns: 170px minmax(220px, 1fr) minmax(320px, 1.25fr);
+  gap: 14px;
   padding: 20px 0;
   border-bottom: 1px solid var(--line);
 }

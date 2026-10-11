@@ -38,7 +38,7 @@ redirect_from:
     <div class="timeline-date">Dec 2025 - May 2026</div>
   </div>
   <div class="timeline-item">
-    <div><strong>Planning and Control Algorithm Intern</strong> · BUAA <a href="https://wrj.buaa.edu.cn/index.htm">Institute of Unmanned Systems</a>, Beijing</div>
+    <div><strong>Planning and Control Algorithm Intern</strong> · BUAA <a href="https://wrj.buaa.edu.cn/index.htm">Institute of Unmanned Systems</a></div>
     <div class="timeline-date">Jun 2025 - Oct 2025</div>
   </div>
 </div>

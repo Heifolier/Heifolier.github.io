@@ -42,7 +42,7 @@ excerpt: "Shuo Zhang works on long-horizon robot planning and embodied intellige
   </article>
   <article>
     <div class="experience-date">Jun 2025 — Oct 2025</div>
-    <div class="experience-role"><strong>Planning and Control Algorithm Intern</strong></div><div class="experience-main"><span>BUAA </span><a href="https://wrj.buaa.edu.cn/index.htm"><strong>Institute of Unmanned Systems</strong></a><span>, Beijing</span></div>
+    <div class="experience-role"><strong>Planning and Control Algorithm Intern</strong></div><div class="experience-main"><span>BUAA </span><a href="https://wrj.buaa.edu.cn/index.htm"><strong>Institute of Unmanned Systems</strong></a></div>
   </article>
 </div>
 
