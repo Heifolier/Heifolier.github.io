@@ -7,7 +7,6 @@ excerpt: "Shuo Zhang works on long-horizon robot planning and embodied intellige
 
 <section class="intro">
   <div class="intro-text">
-    <p class="kicker">Physical AI &amp; Robotics · Peking University</p>
     <h1>Shuo Zhang <span>张硕</span></h1>
     <p>I work on a single question: <strong>how can robots turn high-level goals into reliable long-horizon behavior?</strong></p>
     <p>My research interests are <strong>Physical AI and Robotics</strong>, with a focus on building robots that can perceive, reason, and act over long horizons. I am a master's student in Robotics at <a href="https://www.pku.edu.cn/">Peking University</a>, advised by <a href="https://www.zhongkuili-pku.com/cn/">Prof. Zhongkui Li</a> and <a href="https://mengguo.github.io/personal_site/">Prof. Meng Guo</a>.</p>
