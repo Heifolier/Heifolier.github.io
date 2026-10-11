@@ -8,7 +8,7 @@ excerpt: "Shuo Zhang works on long-horizon robot planning and embodied intellige
 <section class="intro">
   <div class="intro-text">
     <h1>Shuo Zhang <span>张硕</span></h1>
-    <p>I am a master's student in Robotics at <a href="https://www.pku.edu.cn/">Peking University</a>, advised by <a href="https://www.zhongkuili-pku.com/cn/">Prof. Zhongkui Li</a> and <a href="https://mengguo.github.io/personal_site/">Prof. Meng Guo</a>. My research interests are <strong>Physical AI and Robotics</strong>. I work on a single question: <strong>how can robots turn high-level goals into reliable long-horizon behavior?</strong></p>
+    <p>I am a master's student in Robotics at <a href="https://www.pku.edu.cn/">Peking University</a>, advised by <a href="https://www.zhongkuili-pku.com/cn/">Prof. Zhongkui Li</a> and <a href="https://mengguo.github.io/personal_site/">Prof. Meng Guo</a>. My research focuses on <strong>Physical AI and Robotics</strong>, especially how robots can translate high-level goals into reliable long-horizon behavior.</p>
     <p class="contact-line"><a href="mailto:heifolier@stu.pku.edu.cn">Email</a> · <a href="https://github.com/Heifolier">GitHub</a> · <a href="{{ '/files/cv.pdf' | relative_url }}">CV</a></p>
   </div>
   <img class="intro-photo" src="{{ '/images/profile.png' | relative_url }}" alt="Shuo Zhang">
