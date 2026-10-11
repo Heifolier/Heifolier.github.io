@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Shuo Zhang"
 title_separator          : "-"
 name                     : &name "Shuo Zhang"
-description              : &description "Shuo Zhang — embodied intelligence, robot task planning, and multi-robot systems"
+description              : &description "Shuo Zhang — Physical AI and Robotics"
 url                      : "https://heifolier.github.io"
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : ""
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Shuo Zhang (张硕)"
   pronouns         : # example: "she/her"
-  bio              : "M.S. student at Peking University working on embodied intelligence and robot task planning."
+  bio              : "M.S. student at Peking University working on Physical AI and Robotics."
   location         : "Beijing, China"
   employer         : "Peking University"
   uri              : # URL

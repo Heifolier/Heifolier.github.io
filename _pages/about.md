@@ -7,40 +7,14 @@ excerpt: "Shuo Zhang works on long-horizon robot planning and embodied intellige
 
 <section class="intro">
   <div class="intro-text">
-    <p class="kicker">Robotics Researcher · Peking University</p>
+    <p class="kicker">Physical AI &amp; Robotics · Peking University</p>
     <h1>Shuo Zhang <span>张硕</span></h1>
     <p>I work on a single question: <strong>how can robots turn high-level goals into reliable long-horizon behavior?</strong></p>
-    <p>My research moves from LLM- and temporal-logic-based task planning to vision-language-action policies for physical robots. I am a master's student in Robotics at <a href="https://www.pku.edu.cn/">Peking University</a>, advised by <a href="https://www.zhongkuili-pku.com/cn/">Prof. Zhongkui Li</a> and <a href="https://mengguo.github.io/personal_site/">Prof. Meng Guo</a>.</p>
+    <p>My research interests are <strong>Physical AI and Robotics</strong>, with a focus on building robots that can perceive, reason, and act over long horizons. I am a master's student in Robotics at <a href="https://www.pku.edu.cn/">Peking University</a>, advised by <a href="https://www.zhongkuili-pku.com/cn/">Prof. Zhongkui Li</a> and <a href="https://mengguo.github.io/personal_site/">Prof. Meng Guo</a>.</p>
     <p class="contact-line"><a href="mailto:heifolier@stu.pku.edu.cn">Email</a> · <a href="https://github.com/Heifolier">GitHub</a> · <a href="{{ '/files/cv.pdf' | relative_url }}">CV</a></p>
   </div>
   <img class="intro-photo" src="{{ '/images/profile.png' | relative_url }}" alt="Shuo Zhang">
 </section>
-
-## Research Trajectory
-
-<div class="trajectory">
-  <article>
-    <div class="trajectory-date">2025 — present</div>
-    <div>
-      <h3>From planning to embodied policies</h3>
-      <p>I develop VLA policies for long-horizon household manipulation and robotic surgery: integrating task progress, multimodal perception, and action generation for real robots.</p>
-    </div>
-  </article>
-  <article>
-    <div class="trajectory-date">2025</div>
-    <div>
-      <h3>Reliable multi-robot collaboration</h3>
-      <p>I built planning systems that combine LLM reasoning, temporal logic, uncertainty-aware allocation, and human intervention for heterogeneous robot teams.</p>
-    </div>
-  </article>
-  <article>
-    <div class="trajectory-date">2021 — 2024</div>
-    <div>
-      <h3>Formal planning and learning</h3>
-      <p>I worked on task allocation, coalition formation, navigation, and reinforcement learning for single- and multi-robot systems.</p>
-    </div>
-  </article>
-</div>
 
 ## Selected Work
 
@@ -48,7 +22,9 @@ excerpt: "Shuo Zhang works on long-horizon robot planning and embodied intellige
   <article>
     <p class="work-tag">Embodied AI · 2026</p>
     <h3><a href="{{ '/files/paper/main.pdf' | relative_url }}">LLM-Guided Hierarchical Belief Planning for Online Semantic Exploration and Task Execution</a></h3>
-    <p>Published at IEEE CAC 2026. An online planning framework that reduces execution time by 18.6% and travel distance by 16.9% in partially observable semantic environments.</p>
+    <p class="authors"><strong>Shuo Zhang</strong>, Yanran Wei<sup>*</sup>, Meng Guo, Zhongkui Li</p>
+    <p>Published at IEEE CAC 2026. For long-horizon execution with uncertain target locations in partially observable semantic environments, we build hierarchical semantic priors and a rolling-horizon belief-tree search. The method reduces execution time by 18.6% and travel distance by 16.9%.</p>
+    <p class="author-note"><sup>*</sup> Corresponding author</p>
   </article>
   <article>
     <p class="work-tag">Multi-robot systems · 2025</p>
@@ -64,15 +40,15 @@ excerpt: "Shuo Zhang works on long-horizon robot planning and embodied intellige
 <div class="experience-list">
   <article>
     <div class="experience-date">Jun 2026 — Sep 2026</div>
-    <div><h3>Embodied Intelligence Algorithm Intern</h3><p><strong>Xinyan Group Robotics Division</strong>, Beijing · Multi-task VLA policies for the BEHAVIOR 2026 Challenge; task success improved from 13% to 34%.</p></div>
+    <div><h3>Embodied Intelligence Algorithm Intern</h3><p><strong>Xinyan Group Robotics Division</strong>, Beijing</p></div>
   </article>
   <article>
     <div class="experience-date">Dec 2025 — May 2026</div>
-    <div><h3>Embodied Intelligence Algorithm Intern</h3><p><a href="https://www.microport.com/"><strong>Shanghai MicroPort MedBot</strong></a> × Peking University · Respiratory-phase-conditioned VLA policies for autonomous robotic surgery.</p></div>
+    <div><h3>Embodied Intelligence Algorithm Intern</h3><p><a href="https://www.microport.com/"><strong>Shanghai MicroPort MedBot</strong></a> × Peking University</p></div>
   </article>
   <article>
     <div class="experience-date">Jun 2025 — Oct 2025</div>
-    <div><h3>Planning and Control Algorithm Engineer</h3><p><a href="https://www.buaa.edu.cn/"><strong>Beihang University</strong></a> × Peking University · LLM- and temporal-logic-guided planning for heterogeneous multi-robot teams.</p></div>
+    <div><h3>Planning and Control Algorithm Intern</h3><p><a href="https://www.buaa.edu.cn/"><strong>Beihang University</strong></a> × Peking University</p></div>
   </article>
 </div>
 
