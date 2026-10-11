@@ -39,11 +39,11 @@ excerpt: "Shuo Zhang works on long-horizon robot planning and embodied intellige
   </article>
   <article>
     <div class="experience-date">Dec 2025 — May 2026</div>
-    <div class="experience-main"><strong>Embodied Intelligence Algorithm Intern</strong><span class="experience-separator"> · </span><a href="https://www.microport.com/"><strong>MicroPort MedBot</strong></a><span> × Peking University, Shanghai</span></div>
+    <div class="experience-main"><strong>Embodied Intelligence Algorithm Intern</strong><span class="experience-separator"> · </span><a href="https://www.microport.com/"><strong>MicroPort MedBot</strong></a><span>, Shanghai</span></div>
   </article>
   <article>
     <div class="experience-date">Jun 2025 — Oct 2025</div>
-    <div class="experience-main"><strong>Planning and Control Algorithm Intern</strong><span class="experience-separator"> · </span><a href="https://wrj.buaa.edu.cn/index.htm"><strong>Institute of Unmanned Systems, Beihang University</strong></a><span> × Peking University, Beijing</span></div>
+    <div class="experience-main"><strong>Planning and Control Algorithm Intern</strong><span class="experience-separator"> · </span><a href="https://wrj.buaa.edu.cn/index.htm"><strong>Institute of Unmanned Systems, Beihang University</strong></a><span>, Beijing</span></div>
   </article>
 </div>
 
