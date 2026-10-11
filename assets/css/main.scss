@@ -114,6 +114,8 @@ nav a.active { color: var(--text); font-weight: 700; }
 .work-summary p { margin: 0; color: var(--muted); }
 .education-list { border-top: 1px solid var(--line); }
 .education-list p { margin: 0; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.education-date { display: inline-block; width: 170px; color: var(--muted); font-size: 14px; }
+.education-detail { color: var(--muted); }
 
 .page-heading { margin-bottom: 35px; }
 .page-heading .eyebrow { display: none; }
@@ -144,6 +146,7 @@ nav a.active { color: var(--text); font-weight: 700; }
 }
 .timeline-item p { grid-column: 1 / -1; color: var(--muted); }
 .timeline-date { color: var(--muted); font-size: 14px; white-space: nowrap; }
+.timeline-date-inline { color: var(--muted); font-size: 14px; margin-right: 18px; white-space: nowrap; }
 
 .site-footer {
   width: min(calc(100% - 40px), var(--width));
@@ -169,5 +172,7 @@ nav a.active { color: var(--text); font-weight: 700; }
   .site-footer { flex-direction: column; gap: 12px; }
   .timeline-item { grid-template-columns: 1fr; }
   .timeline-date { white-space: normal; }
+  .timeline-date-inline { display: block; margin: 0 0 4px; }
+  .education-date { display: block; width: auto; margin-bottom: 3px; }
   .trajectory article, .experience-list article { grid-template-columns: 1fr; gap: 4px; }
 }

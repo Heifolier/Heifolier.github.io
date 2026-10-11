@@ -13,12 +13,10 @@ redirect_from:
 
 <div class="timeline-list compact">
   <div class="timeline-item">
-    <div><strong>Peking University</strong><br>M.Eng. in Mechanical Engineering (Robotics), School of Advanced Manufacturing and Robotics<br><span class="muted">Recommended admission · Advisors: Prof. Zhongkui Li and Prof. Meng Guo · Top 20%</span></div>
-    <div class="timeline-date">Sep 2024 - Jun 2027 expected</div>
+    <div><span class="timeline-date-inline">Sep 2024 - Jun 2027 expected</span> <strong>Peking University</strong> · M.Eng. in Mechanical Engineering (Robotics), School of Advanced Manufacturing and Robotics<br><span class="muted">Recommended admission · Advisors: Prof. Zhongkui Li and Prof. Meng Guo · Top 20%</span></div>
   </div>
   <div class="timeline-item">
-    <div><strong>Northeastern University</strong><br>B.Eng. in Automation (Artificial Intelligence), College of Information Science and Engineering<br><span class="muted">Top 1%</span></div>
-    <div class="timeline-date">Sep 2020 - Jun 2024</div>
+    <div><span class="timeline-date-inline">Sep 2020 - Jun 2024</span> <strong>Northeastern University</strong> · B.Eng. in Automation (Artificial Intelligence), College of Information Science and Engineering<br><span class="muted">Top 1%</span></div>
   </div>
 </div>
 

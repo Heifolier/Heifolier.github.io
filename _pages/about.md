@@ -50,6 +50,6 @@ excerpt: "Shuo Zhang works on long-horizon robot planning and embodied intellige
 ## Education
 
 <div class="education-list">
-  <p><strong><a href="https://www.pku.edu.cn/">Peking University</a></strong><br>M.Eng. in Mechanical Engineering (Robotics), 2024 — 2027 expected</p>
-  <p><strong>Northeastern University</strong><br>B.Eng. in Automation (Artificial Intelligence), 2020 — 2024 · Top 1%</p>
+  <p><span class="education-date">2024 — 2027 expected</span><strong><a href="https://www.pku.edu.cn/">Peking University</a></strong><span class="education-detail"> · M.Eng. in Mechanical Engineering (Robotics)</span></p>
+  <p><span class="education-date">2020 — 2024</span><strong>Northeastern University</strong><span class="education-detail"> · B.Eng. in Automation (Artificial Intelligence) · Top 1%</span></p>
 </div>
