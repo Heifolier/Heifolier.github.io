@@ -24,11 +24,9 @@ redirect_from:
 
 ## Publications and Patents
 
-1. **Shuo Zhang**, Yanran Wei<sup>*</sup>, Meng Guo, and Zhongkui Li. “LLM-Guided Hierarchical Belief Planning for Online Semantic Exploration and Task Execution.” *2026 IEEE Chinese Automation Congress (CAC)*, published. **First author.**<br>
-   For long-horizon execution with uncertain target locations in partially observable semantic environments, we build hierarchical room-container semantic priors and a rolling-horizon belief-tree search. The method reduces execution time by 18.6% and travel distance by 16.9%. This work also produced one granted invention patent as first inventor. <sup>*</sup> Corresponding author.
+1. **Shuo Zhang**, Yanran Wei, Meng Guo, and Zhongkui Li. “LLM-Guided Hierarchical Belief Planning for Online Semantic Exploration and Task Execution.” *2026 IEEE Chinese Automation Congress (CAC)*, published. **First author.**
 
 2. “Formal Logic-based Cooperative Task Planning for Multi-robot Systems: Survey of Recent Advances and Future Directions.” *Acta Automatica Sinica*, published. **Student third author.**<br>
-   Surveyed formal-logic and LLM-based approaches to multi-robot task modeling and planning, including translation from natural-language instructions to formal specifications, task decomposition, plan generation, and verifiability.
 
 ## Experience
 
@@ -36,17 +34,14 @@ redirect_from:
   <div class="timeline-item">
     <div><strong>Embodied Intelligence Algorithm Intern</strong><br>Xinyan Group Robotics Division, Beijing</div>
     <div class="timeline-date">Jun 2026 - Sep 2026</div>
-    <p>Developed a multi-task VLA policy based on PI 0.5 for the 100 long-horizon household tasks in the BEHAVIOR 2026 Challenge. Added task embeddings, phase-progress encoding, gated tokens, correlated-noise flow matching, and conditional Gaussian soft inpainting; built teleoperation data collection and automated evaluation pipelines. Improved task success from 13% to 34% and Q-score from 0.26 to 0.49 on the official benchmark.</p>
   </div>
   <div class="timeline-item">
     <div><strong>Embodied Intelligence Algorithm Intern</strong><br>Shanghai MicroPort MedBot &amp; Peking University Joint R&amp;D Project</div>
     <div class="timeline-date">Dec 2025 - May 2026</div>
-    <p>Built a respiratory-phase-conditioned P-VLA policy on GR00T for autonomous long-horizon robotic surgery. Developed a sensor-free respiratory-phase estimator and a multimodal training pipeline using demonstrations from 19 ex-vivo specimens and 3 live pigs; contributed to deployment and live-animal experiments on the Toumai multi-arm surgical robot. The work produced a Nature submission, <em>SharpSurg: Foundation-Model-Based Autonomous Long-Horizon Robotic Surgery in Vivo</em>, and two granted invention patents.</p>
   </div>
   <div class="timeline-item">
     <div><strong>Planning and Control Algorithm Intern</strong><br>Beihang University Institute of Unmanned Systems &amp; Peking University Joint R&amp;D Project</div>
     <div class="timeline-date">Jun 2025 - Oct 2025</div>
-    <p>Implemented and deployed a neuro-symbolic planning framework combining LLM reasoning, temporal logic, uncertainty-aware task allocation, and event-triggered human interaction. Experiments with 40+ heterogeneous robots across 41 tasks and 155 subtasks increased task success by 260% and completed tasks by 132%, while reducing operator intervention by 77%. The work led to submissions to <em>Science Robotics</em> and ACCT 2026.</p>
   </div>
 </div>
 

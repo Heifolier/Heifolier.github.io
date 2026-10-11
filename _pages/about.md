@@ -22,14 +22,13 @@ excerpt: "Shuo Zhang works on long-horizon robot planning and embodied intellige
   <article>
     <p class="work-tag">Embodied AI · 2026</p>
     <h3><a href="{{ '/files/paper/main.pdf' | relative_url }}">LLM-Guided Hierarchical Belief Planning for Online Semantic Exploration and Task Execution</a></h3>
-    <p class="authors"><strong>Shuo Zhang</strong>, Yanran Wei<sup>*</sup>, Meng Guo, Zhongkui Li</p>
-    <p>Published at IEEE CAC 2026. For long-horizon execution with uncertain target locations in partially observable semantic environments, we build hierarchical semantic priors and a rolling-horizon belief-tree search. The method reduces execution time by 18.6% and travel distance by 16.9%.</p>
-    <p class="author-note"><sup>*</sup> Corresponding author</p>
+    <p class="authors"><strong>Shuo Zhang</strong>, Yanran Wei, Meng Guo, Zhongkui Li</p>
+    <p>Published at IEEE CAC 2026.</p>
   </article>
   <article>
     <p class="work-tag">Multi-robot systems · 2025</p>
     <h3><a href="{{ '/files/paper/2605.07877v1.pdf' | relative_url }}">Melding LLM and Temporal Logic for Reliable Human-Swarm Collaboration</a></h3>
-    <p>Submitted to <em>Science Robotics</em>. Tested with 40+ heterogeneous robots across 41 tasks and 155 subtasks.</p>
+    <p>Submitted to <em>Science Robotics</em>.</p>
   </article>
 </div>
 
