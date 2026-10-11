@@ -19,12 +19,11 @@ excerpt: "Shuo Zhang works on long-horizon robot planning and embodied intellige
 <div class="work-summary">
   <article>
     <h3><a href="{{ '/files/paper/main.pdf' | relative_url }}">LLM-Guided Hierarchical Belief Planning for Online Semantic Exploration and Task Execution</a></h3>
-    <p class="authors"><strong>Shuo Zhang</strong>, Yanran Wei, Meng Guo, Zhongkui Li</p>
-    <p>Published at IEEE CAC 2026.</p>
+    <div class="work-meta"><p class="authors"><strong>Shuo Zhang</strong>, Yanran Wei, Meng Guo, Zhongkui Li</p><p>Published at IEEE CAC 2026.</p></div>
   </article>
   <article>
     <h3><a href="{{ '/files/paper/2605.07877v1.pdf' | relative_url }}">Melding LLM and Temporal Logic for Reliable Human-Swarm Collaboration</a></h3>
-    <p>Submitted to <em>Science Robotics</em>.</p>
+    <div class="work-meta"><span></span><p>Submitted to <em>Science Robotics</em>.</p></div>
   </article>
 </div>
 
@@ -35,15 +34,15 @@ excerpt: "Shuo Zhang works on long-horizon robot planning and embodied intellige
 <div class="experience-list">
   <article>
     <div class="experience-date">Jun 2026 — Sep 2026</div>
-    <div class="experience-main"><strong>Embodied Intelligence Algorithm Intern</strong><span class="experience-separator"> · </span><a href="https://clingo.ai/"><strong>Clingo Robotics</strong></a><span>, Beijing</span></div>
+    <div class="experience-role"><strong>Embodied Intelligence Algorithm Intern</strong></div><div class="experience-main"><a href="https://clingo.ai/"><strong>Clingo Robotics</strong></a><span>, Beijing</span></div>
   </article>
   <article>
     <div class="experience-date">Dec 2025 — May 2026</div>
-    <div class="experience-main"><strong>Embodied Intelligence Algorithm Intern</strong><span class="experience-separator"> · </span><a href="https://www.microport.com/"><strong>MicroPort MedBot</strong></a><span>, Shanghai</span></div>
+    <div class="experience-role"><strong>Embodied Intelligence Algorithm Intern</strong></div><div class="experience-main"><a href="https://www.microport.com/"><strong>MicroPort MedBot</strong></a><span>, Shanghai</span></div>
   </article>
   <article>
     <div class="experience-date">Jun 2025 — Oct 2025</div>
-    <div class="experience-main"><strong>Planning and Control Algorithm Intern</strong><span class="experience-separator"> · </span><span>BUAA </span><a href="https://wrj.buaa.edu.cn/index.htm"><strong>Institute of Unmanned Systems</strong></a><span>, Beijing</span></div>
+    <div class="experience-role"><strong>Planning and Control Algorithm Intern</strong></div><div class="experience-main"><span>BUAA </span><a href="https://wrj.buaa.edu.cn/index.htm"><strong>Institute of Unmanned Systems</strong></a><span>, Beijing</span></div>
   </article>
 </div>
 
