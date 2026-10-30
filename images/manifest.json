@@ -1,5 +1,6 @@
 ---
 permalink: /images/manifest.json
+layout: null
 ---
 {
 	"name": {{ site.title | jsonify }},

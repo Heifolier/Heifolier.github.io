@@ -84,11 +84,13 @@ kramdown:
   enable_coderay: false
 
 
-# These settings control how pages are included in the site. Every page in
-# _pages/ is rendered with the custom profile layout.
+# These settings control how pages are included in the site. Everything under
+# _pages/ is rendered with the custom profile layout; the scope must stay
+# limited to _pages/, because files such as images/manifest.json are pages too
+# and would otherwise be wrapped in <html>.
 defaults:
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
       layout: profile
