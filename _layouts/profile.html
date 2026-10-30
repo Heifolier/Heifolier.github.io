@@ -4,43 +4,52 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace }}">
-    <meta name="author" content="Shuo Zhang">
-    <meta name="theme-color" content="#f5f3ec">
+    <meta name="author" content="{{ site.name }}">
+    <meta name="theme-color" content="#ffffff">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{% if page.url == '/' %}Shuo Zhang · Robotics Researcher{% else %}{{ page.title }} · Shuo Zhang{% endif %}">
+    <meta property="og:title" content="{% if page.url == '/' %}Shuo Zhang · Robotics Researcher{% else %}{{ page.title }} · {{ site.title }}{% endif %}">
     <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:image" content="{{ '/images/profile.png' | absolute_url }}">
+    <meta name="twitter:card" content="summary">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
     <title>{% if page.url == '/' %}{{ site.title }}{% else %}{{ page.title }} · {{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+    <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32x32.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon-180x180.png' | relative_url }}">
+    <link rel="manifest" href="{{ '/images/manifest.json' | relative_url }}">
   </head>
   <body>
     <header class="site-header">
-      {% if page.url != '/' %}
-        <a class="brand" href="{{ '/' | relative_url }}" aria-label="Shuo Zhang home">
-          <span>Shuo Zhang</span>
-        </a>
-      {% else %}
+      {% assign is_home = false %}{% if page.url == '/' %}{% assign is_home = true %}{% endif %}
+      {% if is_home %}
         <span class="brand-spacer" aria-hidden="true"></span>
+      {% else %}
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.name }} home">
+          <span>{{ site.title }}</span>
+        </a>
       {% endif %}
+      {% assign on_publications = false %}{% if page.url == '/publications/' %}{% assign on_publications = true %}{% endif %}
       <nav aria-label="Primary navigation">
-        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Home</a>
-        <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} class="active"{% endif %}>Research</a>
+        <a href="{{ '/' | relative_url }}"{% if is_home %} class="active"{% endif %}>Home</a>
+        <a href="{{ '/publications/' | relative_url }}"{% if on_publications %} class="active"{% endif %}>Research</a>
       </nav>
     </header>
 
-    <main class="site-main{% if page.url != '/' %} inner-page{% endif %}">
-      {% if page.url != '/' %}<div class="page-heading"><p class="eyebrow">Shuo Zhang</p><h1>{{ page.title }}</h1></div>{% endif %}
+    <main class="site-main">
+      {% unless is_home %}<div class="page-heading"><p class="eyebrow">{{ site.name }}</p><h1>{{ page.title }}</h1></div>{% endunless %}
       {{ content }}
     </main>
 
     <footer class="site-footer">
-      <div class="footer-identity"><div><strong>Shuo Zhang</strong><p>Peking University · Beijing, China</p></div></div>
+      <div class="footer-identity"><div><strong>{{ site.name }}</strong><p>{{ site.author.employer }} · {{ site.author.location }}</p></div></div>
       <div class="footer-links">
-        <a href="mailto:heifolier@stu.pku.edu.cn" aria-label="Email Shuo Zhang">Email</a>
-        <a href="https://github.com/Heifolier" aria-label="Shuo Zhang on GitHub">GitHub</a>
-        <a href="{{ '/files/cv.pdf' | relative_url }}" aria-label="Download Shuo Zhang's CV">CV</a>
+        <a href="mailto:{{ site.author.email }}" aria-label="Email {{ site.name }}">Email</a>
+        <a href="https://github.com/{{ site.author.github }}" aria-label="{{ site.name }} on GitHub">GitHub</a>
+        <a href="{{ '/files/cv.pdf' | relative_url }}" aria-label="Download {{ site.name }}'s CV">CV</a>
       </div>
     </footer>
   </body>

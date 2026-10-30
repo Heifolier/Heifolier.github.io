@@ -64,6 +64,7 @@ nav a.active { color: var(--text); font-weight: 700; }
   object-fit: cover;
   object-position: 50% 35%;
   border: 1px solid var(--line);
+  justify-self: end;
 }
 .contact-line { font-size: 14px; }
 
@@ -167,20 +168,40 @@ nav a.active { color: var(--text); font-weight: 700; }
 .footer-identity p { margin: 0; }
 .footer-links { display: flex; gap: 18px; }
 
+/* Tablet: the three-column rows below need ~710px, so collapse them early. */
+@media (max-width: 760px) {
+  .intro { grid-template-columns: 1fr 160px; gap: 32px; }
+  .intro-photo { width: 160px; height: 194px; }
+  .trajectory article,
+  .experience-list article { grid-template-columns: 130px minmax(0, 1fr); }
+  .trajectory article > :last-child,
+  .experience-list article > :last-child { grid-column: 2; }
+  .education-list p { grid-template-columns: 160px minmax(0, 1fr); row-gap: 2px; }
+  .education-detail { grid-column: 2; }
+}
+
 @media (max-width: 620px) {
   .site-header, .site-main, .site-footer { width: min(calc(100% - 28px), var(--width)); }
   .site-header { padding-top: 18px; }
   nav { gap: 13px; }
   .site-main { padding-top: 38px; }
   .intro { grid-template-columns: 1fr; gap: 25px; }
-  .intro-photo { width: 150px; height: 180px; order: -1; }
+  .intro-photo { width: 150px; height: 182px; order: -1; justify-self: start; }
   .site-footer { flex-direction: column; gap: 12px; }
   .timeline-item { grid-template-columns: 1fr; }
   .timeline-date { white-space: normal; }
   .timeline-date-inline { display: block; margin: 0 0 4px; }
   .education-list p { display: block; }
   .education-date { display: block; margin-bottom: 3px; }
-  .trajectory article, .experience-list article { grid-template-columns: 1fr; gap: 4px; }
+  .trajectory article,
+  .experience-list article { grid-template-columns: 1fr; gap: 4px; }
+  .trajectory article > :last-child,
+  .experience-list article > :last-child { grid-column: auto; }
   .work-meta { display: block; }
   .work-meta p:last-child { margin-top: 4px; text-align: left; white-space: normal; }
+}
+
+@media print {
+  .site-header nav, .site-footer .footer-links { display: none; }
+  a { color: inherit; }
 }

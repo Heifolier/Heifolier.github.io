@@ -18,11 +18,11 @@ excerpt: "Shuo Zhang works on long-horizon robot planning and embodied intellige
 
 <div class="work-summary">
   <article>
-    <h3><a href="{{ '/files/paper/main.pdf' | relative_url }}">LLM-Guided Hierarchical Belief Planning for Online Semantic Exploration and Task Execution</a></h3>
+    <h3>LLM-Guided Hierarchical Belief Planning for Online Semantic Exploration and Task Execution</h3>
     <div class="work-meta"><p class="authors"><strong>Shuo Zhang</strong>, Yanran Wei, Meng Guo, Zhongkui Li</p><p>Published at IEEE CAC 2026.</p></div>
   </article>
   <article>
-    <h3><a href="{{ '/files/paper/2605.07877v1.pdf' | relative_url }}">Melding LLM and Temporal Logic for Reliable Human-Swarm Collaboration</a></h3>
+    <h3><a href="{{ '/files/paper/2605.07877v1.pdf' | relative_url }}">Melding LLM and Temporal Logic for Reliable Human-Swarm Collaboration in Complex Environments</a></h3>
     <div class="work-meta"><span></span><p>Submitted to <em>Science Robotics</em>.</p></div>
   </article>
 </div>

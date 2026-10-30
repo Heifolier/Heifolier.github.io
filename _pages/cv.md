@@ -24,7 +24,7 @@ redirect_from:
 
 1. **Shuo Zhang**, Yanran Wei, Meng Guo, and Zhongkui Li. “LLM-Guided Hierarchical Belief Planning for Online Semantic Exploration and Task Execution.” *2026 IEEE Chinese Automation Congress (CAC)*, published. **First author.**
 
-2. “Formal Logic-based Cooperative Task Planning for Multi-robot Systems: Survey of Recent Advances and Future Directions.” *Acta Automatica Sinica*, published. **Student third author.**<br>
+2. “Formal Logic-based Cooperative Task Planning for Multi-robot Systems: Survey of Recent Advances and Future Directions.” *Acta Automatica Sinica*, published. **Student third author.**
 
 ## Experience
 

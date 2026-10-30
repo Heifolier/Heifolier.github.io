@@ -1,13 +1,8 @@
 source 'https://rubygems.org'
 
-group :jekyll_plugins do
-  gem 'jekyll'
-  gem 'jekyll-feed'
-  gem 'jekyll-sitemap'
-  gem 'jekyll-redirect-from'
-  gem 'jemoji'
-  gem 'webrick', '~> 1.8'
-end
+# The github-pages gem pins the exact Jekyll version and plugin set that
+# GitHub Pages uses, so building locally matches the deployed site.
+gem 'github-pages', group: :jekyll_plugins
 
-gem 'github-pages'
-gem 'connection_pool', '2.5.0'
+# Jekyll 4 requires an explicit web server for `jekyll serve`.
+gem 'webrick', '~> 1.8'

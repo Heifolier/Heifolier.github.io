@@ -1,6 +1,8 @@
 # Ignore the contents of the _site directory and other cache directories
 _site/
 .sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
 # Ignore the directory for local files during development
 local/
@@ -18,7 +20,15 @@ package-lock.json
 
 # Ignore folders related to IDEs
 .vscode/
+.idea/
 
 # Ignore files created by MacOS
 .DS_Store
-tmp/
+
+# Ignore temporary files left behind by Office / WPS
+~$*
+~WRL*.tmp
+
+# Ignore personal documents that must never be published
+files/材料/
+*.docx
